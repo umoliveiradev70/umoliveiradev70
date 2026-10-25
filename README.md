@@ -8,7 +8,8 @@
 
 <p align="center">
   <strong>Olá! Eu sou Victor Alexandro Barbosa de Oliveira.</strong><br>
-  Estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia, aprendizado contínuo e construção de soluções digitais.
+  Estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia,
+  aprendizado contínuo e construção de soluções digitais.
 </p>
 
 <p align="center">
