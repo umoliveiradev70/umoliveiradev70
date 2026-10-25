@@ -19,7 +19,9 @@
     </linearGradient>
     <linearGradient id="shineGradient" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="0.32" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="0.68" stop-color="#FFFFFF" stop-opacity="0.04"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="titleClip">
@@ -29,6 +31,9 @@
       <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="shineBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
   </defs>
   <rect width="1200" height="260" rx="24" fill="url(#background)"/>
   <path d="M-40 230L310 -40" stroke="url(#lineGradient)" stroke-width="2"/>
@@ -36,10 +41,10 @@
   <circle cx="1035" cy="72" r="112" fill="#8CB9E6" fill-opacity=".06"/>
   <circle cx="1035" cy="72" r="72" stroke="#AFC8E3" stroke-opacity=".16"/>
   <text x="600" y="132" text-anchor="middle" fill="url(#titleGradient)" filter="url(#glow)" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1">Bem-Vindo ao Meu Perfil</text>
-  <g clip-path="url(#titleClip)">
-    <rect x="-260" y="-90" width="170" height="380" transform="rotate(24 0 0)" fill="url(#shineGradient)">
+  <g>
+    <rect x="-260" y="-120" width="700" height="500" transform="rotate(24 0 0)" fill="url(#shineGradient)" filter="url(#shineBlur)">
       <animate attributeName="x" from="-420" to="1240" dur="3.8s" repeatCount="indefinite" />
     </rect>
   </g>
-  <text x="600" y="176" text-anchor="middle" fill="#C6D0DB" fill-opacity=".85" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4">VICTOR ALEXANDRO • DESENVOLVIMENTO</text>
+  <text x="600" y="176" text-anchor="middle" fill="#C6D0DB" fill-opacity=".85" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4">VICTOR ALEXANDRO - DESENVOLVIMENTO</text>
 </svg>

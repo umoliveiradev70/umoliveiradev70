@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Bem-Vindo ao Meu Perfil" width="100%" />
+  <img src="./assets/profile-header.gif?v=3" alt="Bem-Vindo ao Meu Perfil" width="100%" />
 </p>
 
 <p align="center">
